@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="contact">
+        <div class="text">
+            <h1>Contact Us</h1>
+            <p>Please fill this form in a decent manner</p>
+        </div>
+        <hr style="border: 1px dashed rgb(180, 180, 180);" />
+        <form action="https://formsubmit.co/erkezhanabayeva@mail.ru"  method="POST">
+            <h2>Full Name</h2>
+            <div class="name">
+                <input type="text" name="first-name" id="fname" required>
+                <input type="text" name="last-name" id="lname" required>
+                <label for="fname">First Name</label>
+                <label for="lname">Last Name</label>
+            </div>
+            <h2>E-mail</h2>
+            <input type="email" name="email" id="mail" style="padding: 3%;" required>
+            <label for="mail">example@example.com</label>
+            <h2>Message</h2>
+            <textarea name="message" id="" required></textarea>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
